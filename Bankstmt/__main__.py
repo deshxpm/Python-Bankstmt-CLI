@@ -2,11 +2,11 @@ import sys
 #from .classmodule import MyClass
 #from .funcmodule import my_function
 def main():
-    print('in main')
+    print('\tBank Statement\n')
     args = sys.argv[1:]
-    print('count of args :: {}'.format(len(args)))
+    print('\tColumn Number : {}'.format(len(args)))
     for arg in args:
-        print('passed argument :: {}'.format(arg))
+        print('\tpassed argument : {}'.format(arg))
    # my_function('Python-Bankstmt')
    # my_object = MyClass('Deepak')
    # my_object.say_name()
